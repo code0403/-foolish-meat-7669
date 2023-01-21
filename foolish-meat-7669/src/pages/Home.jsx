@@ -3,6 +3,8 @@ import SliderOne from "../Slider/Slider_one";
 import SliderTwo from "../Slider/Slider_two";
 import SliderThree from "../Slider/Slider_three";
 import HomeandFurnishing from "../HomePageComponent.jsx/HomeandFurnishing";
+import Faq from "../HomePageComponent.jsx/Faq";
+import Footer from "../HomePageComponent.jsx/Footer";
 
 function Home(){
 
@@ -13,6 +15,8 @@ function Home(){
         <SliderTwo />
         <SliderThree />
         <HomeandFurnishing/>
+        <Faq />
+        <Footer />
         </>
     )
 }
