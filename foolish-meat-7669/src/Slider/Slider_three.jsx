@@ -143,8 +143,8 @@ function SliderThree() {
     <Box style={{marginTop:"30px", marginLeft:"30px", marginRight:"30px"}}>
     <Carousel responsive={responsive}>
         {
-            sliderImages.map((el) => {
-                return <Link><Box display="flex" flexDirection="column" alignItems="center" _hover={{color:"red"}}>
+            sliderImages.map((el,index) => {
+                return <Link to="/prodnt" key={index+1}><Box display="flex" flexDirection="column" alignItems="center" _hover={{color:"red"}}>
                     <Image src={el.url} boxSize='100px' borderRadius='full' />
                     <Text>{el.name}</Text>
                     </Box></Link> 
