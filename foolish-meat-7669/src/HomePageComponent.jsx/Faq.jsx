@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
 import {Box,Text, Heading} from "@chakra-ui/react";
-// import { List,ListItem,ListIcon,UnorderedList } from '@chakra-ui/react';
-import { SimpleGrid, Center } from '@chakra-ui/react';
+import { SimpleGrid } from '@chakra-ui/react';
 import { Icon } from '@chakra-ui/react';
-import { FaRegHeart,FaShieldAlt,FaShoppingBag, FaApple,FaAndroid, FaWindows,FaTwitter,FaInstagram,FaFacebookF,FaYoutube, FaCcVisa, FaCcMastercard} from "react-icons/fa";
+import { 
+    FaRegHeart,FaShieldAlt,FaShoppingBag, FaApple,FaAndroid, FaWindows,
+    
+    FaTwitter,FaInstagram,FaFacebookF,FaYoutube, FaCcVisa, FaCcMastercard } from "react-icons/fa";
 import {MdStars} from "react-icons/md";
 import { Link } from 'react-router-dom';
 import { Divider } from '@chakra-ui/react'
