@@ -32,35 +32,43 @@ const sliderImages = [
 
   {
     url:"https://assetscdn1.paytm.com/images/catalog/view_item/498479/1613247367528.png?imwidth=414&impolicy=hq",
-    name:"Big Bazaar"
+    name:"Big Bazaar",
+    productId:"1"
   },
   {
     url:"https://assetscdn1.paytm.com/images/catalog/view_item/498482/1620737072141.png?imwidth=414&impolicy=hq",
-    name:"Urban Ladder"
+    name:"Urban Ladder",
+    productId:"2"
   },
   {
     url:"https://assetscdn1.paytm.com/images/catalog/view_item/498480/1620737097910.jpg?imwidth=414&impolicy=hq",
-    name:"@home"
+    name:"@home",
+    productId:"3"
   },
   {
     url:"https://assetscdn1.paytm.com/images/catalog/view_item/498484/1610566898069.jpg?imwidth=414&impolicy=hq",
-    name:"More"
+    name:"More",
+    productId:"4"
   },
   {
     url:"https://assetscdn1.paytm.com/images/catalog/view_item/498485/1620737113562.png?imwidth=414&impolicy=hq",
-    name:"Home Center"
+    name:"Home Center",
+    productId:"5"
   },
   {
     url:"https://assetscdn1.paytm.com/images/catalog/view_item/498490/1610567023040.png?imwidth=414&impolicy=hq",
-    name:"Prestige"
+    name:"Prestige",
+    productId:"6"
   },
   {
     url:"https://assetscdn1.paytm.com/images/catalog/view_item/498486/1610567208285.png?imwidth=414&impolicy=hq",
-    name:"RatnaDeep"
+    name:"RatnaDeep",
+    productId:"7"
   },
   {
     url:"https://assetscdn1.paytm.com/images/catalog/view_item/498480/1620737097910.jpg?imwidth=414&impolicy=hq",
-    name:"Urban Ladder"
+    name:"Urban Ladder",
+    productId:"8"
   },
     
  ]
@@ -69,19 +77,23 @@ const sliderImages = [
 
    {
      url: "https://assetscdn1.paytm.com/images/catalog/view_item/711188/1613028659969.png?imwidth=414&impolicy=hq",
-     name:"Kalyan | Get 20% CashBack"
+     name:"Kalyan | Get 20% CashBack",
+     productId:"9"
    },
    {
     url: "https://assetscdn1.paytm.com/images/catalog/view_item/711194/1620745874093.jpg?imwidth=414&impolicy=hq",
-    name:"Jewelfina"
+    name:"Jewelfina",
+    productId:"10"
   },
   {
     url: "https://assetscdn1.paytm.com/images/catalog/view_item/711199/1613028660058.jpg?imwidth=414&impolicy=hq",
-    name:"Tanshiq"
+    name:"Tanshiq",
+    productId:"11"
   },
   {
     url: "https://assetscdn1.paytm.com/images/catalog/view_item/711200/1620745456365.jpg?imwidth=414&impolicy=hq",
-    name:"Up to 60% OFF"
+    name:"Up to 60% OFF",
+    productId:"12"
   },
  ]
 
@@ -92,7 +104,7 @@ const sliderImages = [
       <Carousel responsive={responsive}>
          {
            sliderImages.map((el) => {
-            return <Link><Box display="flex" flexDirection="column" alignItems="center" boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px" transition="tansform .65s">
+            return <Link to="/product"><Box display="flex" flexDirection="column" alignItems="center" boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px" transition="tansform .65s">
                 <Image src={el.url} w={"300px"} h={"400px"} marginTop="30px" _hover={{ transform:"scale(1.05)" }}/>
                 <Text fontFamily="sans-serif" fontStyle="normal" fontWeight="700" fontSize="22px" color="gray.900" marginTop="10px">{el.name}</Text>
                 </Box></Link>

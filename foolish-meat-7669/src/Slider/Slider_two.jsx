@@ -145,8 +145,8 @@ function SliderTwo() {
        <Box style={{marginTop:"30px", marginLeft:"30px", marginRight:"30px"}}>
     <Carousel responsive={responsive}>
         {
-            sliderImages.map((el) => {
-                return <Link><Box display="flex" flexDirection="column" alignItems="center" _hover={{color:"red"}}>
+            sliderImages.map((el,index) => {
+                return <Link to="/prodnt" key={index+1}><Box display="flex" flexDirection="column" alignItems="center" _hover={{color:"red"}}>
                     <Image src={el.url} boxSize='100px' borderRadius='full' border="1px solid gray"  />
                     <Text>{el.name}</Text>
                     </Box></Link> 

@@ -1,0 +1,235 @@
+{
+    "data":{
+
+        "home" : [
+
+            {
+                "imgUrl": "https://assetscdn1.paytm.com/images/catalog/product/D/DE/DEAVOUCHER-WORTAT-H1107318FC8EC14F/5.png?imwidth=282&impolicy=hq",
+                "name": "@Home Gift Card",
+                "price": "1000",
+                "itemId":"1"
+            },
+            {
+                "imgUrl": "https://assetscdn1.paytm.com/images/catalog/product/D/DE/DEAVOUCHER-WORTAT-H1107318FC8EC14F/5.png?imwidth=282&impolicy=hq",
+                "name": "@Home Gift Card",
+                "price": "1500",
+                "itemId":"2"
+            },
+            {
+                "imgUrl": "https://assetscdn1.paytm.com/images/catalog/product/D/DE/DEAVOUCHER-WORTAT-H1107318FC8EC14F/5.png?imwidth=282&impolicy=hq",
+                "name": "@Home Gift Card",
+                "price": "2000",
+                "itemId":"3"
+            },
+            {
+                "imgUrl": "https://assetscdn1.paytm.com/images/catalog/product/D/DE/DEAVOUCHER-WORTAT-H1107318FC8EC14F/5.png?imwidth=282&impolicy=hq",
+                "name": "@Home Gift Card",
+                "price": "5000",
+                "itemId":"4"
+            },
+            {
+                "imgUrl": "https://assetscdn1.paytm.com/images/catalog/product/D/DE/DEAVOUCHER-WORTAT-H1107318FC8EC14F/5.png?imwidth=282&impolicy=hq",
+                "name": "@Home Gift Card",
+                "price": "7000",
+                "itemId":"5"
+            },
+            {
+                "imgUrl": "https://assetscdn1.paytm.com/images/catalog/product/D/DE/DEAVOUCHER-WORTAT-H1107318FC8EC14F/5.png?imwidth=282&impolicy=hq",
+                "name": "@Home Gift Card",
+                "price": "9000",
+                "itemId":"6"
+            },
+            {
+                "imgUrl": "https://assetscdn1.paytm.com/images/catalog/product/D/DE/DEAVOUCHER-WORTAT-H1107318FC8EC14F/5.png?imwidth=282&impolicy=hq",
+                "name": "@Home Gift Card",
+                "price": "10000",
+                "itemId":"7"
+            },
+            {
+                "imgUrl": "https://assetscdn1.paytm.com/images/catalog/product/D/DE/DEAVOUCHER-WORTAT-H1107318FC8EC14F/5.png?imwidth=282&impolicy=hq",
+                "name": "@Home Gift Card",
+                "price": "15000",
+                "itemId":"8"
+            },
+            {
+                "imgUrl": "https://assetscdn1.paytm.com/images/catalog/product/D/DE/DEAVOUCHER-WORTAT-H1107318FC8EC14F/5.png?imwidth=282&impolicy=hq",
+                "name": "@Home Gift Card",
+                "price": "20000",
+                "itemId":"9"
+            },
+            {
+                "imgUrl": "https://assetscdn1.paytm.com/images/catalog/product/D/DE/DEAVOUCHER-WORTAT-H1107318FC8EC14F/5.png?imwidth=282&impolicy=hq",
+                "name": "@Home Gift Card",
+                "price": "25000",
+                "itemId":"10"
+
+            },
+            {
+                "imgUrl": "https://assetscdn1.paytm.com/images/catalog/product/D/DE/DEAVOUCHER-WORTAT-H1107318FC8EC14F/5.png?imwidth=282&impolicy=hq",
+                "name": "@Home Gift Card",
+                "price": "30000",
+                "itemId":"11"
+            },
+            {
+                "imgUrl": "https://assetscdn1.paytm.com/images/catalog/product/D/DE/DEAVOUCHER-WORTAT-H1107318FC8EC14F/5.png?imwidth=282&impolicy=hq",
+                "name": "@Home Gift Card",
+                "price": "35000",
+                "itemId":"12"
+            },
+            {
+                "imgUrl": "https://assetscdn1.paytm.com/images/catalog/product/D/DE/DEAVOUCHER-WORTAT-H1107318FC8EC14F/5.png?imwidth=282&impolicy=hq",
+                "name": "@Home Gift Card",
+                "price": "40000",
+                "itemId":"13"
+            },
+            {
+                "imgUrl": "https://assetscdn1.paytm.com/images/catalog/product/D/DE/DEAVOUCHER-WORTAT-H1107318FC8EC14F/5.png?imwidth=282&impolicy=hq",
+                "name": "@Home Gift Card",
+                "price": "45000",
+                "itemId":"14"
+            },
+            {
+                "imgUrl": "https://assetscdn1.paytm.com/images/catalog/product/D/DE/DEAVOUCHER-WORTAT-H1107318FC8EC14F/5.png?imwidth=282&impolicy=hq",
+                "name": "@Home Gift Card",
+                "price": "50000",
+                "itemId":"15"
+            },
+            {
+                "imgUrl": "https://assetscdn1.paytm.com/images/catalog/product/D/DE/DEAVOUCHER-WORTAT-H1107318FC8EC14F/5.png?imwidth=282&impolicy=hq",
+                "name": "@Home Gift Card",
+                "price": "70000",
+                "itemId":"16"
+            },
+            {
+                "imgUrl": "https://assetscdn1.paytm.com/images/catalog/product/D/DE/DEAVOUCHER-WORTAT-H1107318FC8EC14F/5.png?imwidth=282&impolicy=hq",
+                "name": "@Home Gift Card",
+                "price": "90000",
+                "itemId":"17"
+            }
+        ],
+
+        "urbanLadder": [
+           {
+              "imageUrl": "https://images-platform.99static.com/79IzKBsD4Qj5rzRTnoMCZoZS0Bg=/500x500/top/smart/99designs-contests-attachments/12/12404/attachment_12404862",
+              "name": "Urban Ladder",
+              "price": "10000",
+              "itemId": "1"
+            },
+            {
+                "imageUrl": "https://images-platform.99static.com/79IzKBsD4Qj5rzRTnoMCZoZS0Bg=/500x500/top/smart/99designs-contests-attachments/12/12404/attachment_12404862",
+                "name": "Urban Ladder",
+                "price": "15000",
+                "itemId": "2"
+            },
+            {
+                "imageUrl": "https://images-platform.99static.com/79IzKBsD4Qj5rzRTnoMCZoZS0Bg=/500x500/top/smart/99designs-contests-attachments/12/12404/attachment_12404862",
+                "name": "Urban Ladder",
+                "price": "20000",
+                "itemId": "3"
+            },
+            {
+                "imageUrl": "https://images-platform.99static.com/79IzKBsD4Qj5rzRTnoMCZoZS0Bg=/500x500/top/smart/99designs-contests-attachments/12/12404/attachment_12404862",
+                "name": "Urban Ladder",
+                "price": "25000",
+                "itemId": "4"
+            },
+            {
+                "imageUrl": "https://images-platform.99static.com/79IzKBsD4Qj5rzRTnoMCZoZS0Bg=/500x500/top/smart/99designs-contests-attachments/12/12404/attachment_12404862",
+                "name": "Urban Ladder",
+                "price": "30000",
+                "itemId": "5"
+            },
+            {
+                "imageUrl": "https://images-platform.99static.com/79IzKBsD4Qj5rzRTnoMCZoZS0Bg=/500x500/top/smart/99designs-contests-attachments/12/12404/attachment_12404862",
+                "name": "Urban Ladder",
+                "price": "35000",
+                "itemId": "6"
+            },
+            {
+                "imageUrl": "https://images-platform.99static.com/79IzKBsD4Qj5rzRTnoMCZoZS0Bg=/500x500/top/smart/99designs-contests-attachments/12/12404/attachment_12404862",
+                "name": "Urban Ladder",
+                "price": "40000",
+                "itemId": "7"
+            },
+            {
+                "imageUrl": "https://images-platform.99static.com/79IzKBsD4Qj5rzRTnoMCZoZS0Bg=/500x500/top/smart/99designs-contests-attachments/12/12404/attachment_12404862",
+                "name": "Urban Ladder",
+                "price": "45000",
+                "itemId": "8"
+            },
+            {
+                "imageUrl": "https://images-platform.99static.com/79IzKBsD4Qj5rzRTnoMCZoZS0Bg=/500x500/top/smart/99designs-contests-attachments/12/12404/attachment_12404862",
+                "name": "Urban Ladder",
+                "price": "50000",
+                "itemId": "9"
+            },
+            {
+                "imageUrl": "https://images-platform.99static.com/79IzKBsD4Qj5rzRTnoMCZoZS0Bg=/500x500/top/smart/99designs-contests-attachments/12/12404/attachment_12404862",
+                "name": "Urban Ladder",
+                "price": "55000",
+                "itemId": "10"
+            },
+            {
+                "imageUrl": "https://images-platform.99static.com/79IzKBsD4Qj5rzRTnoMCZoZS0Bg=/500x500/top/smart/99designs-contests-attachments/12/12404/attachment_12404862",
+                "name": "Urban Ladder",
+                "price": "6000",
+                "itemId": "11"
+            },
+            {
+                "imageUrl": "https://images-platform.99static.com/79IzKBsD4Qj5rzRTnoMCZoZS0Bg=/500x500/top/smart/99designs-contests-attachments/12/12404/attachment_12404862",
+                "name": "Urban Ladder",
+                "price": "65000",
+                "itemId": "12"
+            },
+            {
+                "imageUrl": "https://images-platform.99static.com/79IzKBsD4Qj5rzRTnoMCZoZS0Bg=/500x500/top/smart/99designs-contests-attachments/12/12404/attachment_12404862",
+                "name": "Urban Ladder",
+                "price": "70000",
+                "itemId": "13"
+            },
+            {
+                "imageUrl": "https://images-platform.99static.com/79IzKBsD4Qj5rzRTnoMCZoZS0Bg=/500x500/top/smart/99designs-contests-attachments/12/12404/attachment_12404862",
+                "name": "Urban Ladder",
+                "price": "75000",
+                "itemId": "14"
+            },
+            {
+                "imageUrl": "https://images-platform.99static.com/79IzKBsD4Qj5rzRTnoMCZoZS0Bg=/500x500/top/smart/99designs-contests-attachments/12/12404/attachment_12404862",
+                "name": "Urban Ladder",
+                "price": "80000",
+                "itemId": "15"
+            },
+            {
+                "imageUrl": "https://images-platform.99static.com/79IzKBsD4Qj5rzRTnoMCZoZS0Bg=/500x500/top/smart/99designs-contests-attachments/12/12404/attachment_12404862",
+                "name": "Urban Ladder",
+                "price": "85000",
+                "itemId": "16"
+            },
+            {
+                "imageUrl": "https://images-platform.99static.com/79IzKBsD4Qj5rzRTnoMCZoZS0Bg=/500x500/top/smart/99designs-contests-attachments/12/12404/attachment_12404862",
+                "name": "Urban Ladder",
+                "price": "90000",
+                "itemId": "17"
+            },
+            {
+                "imageUrl": "https://images-platform.99static.com/79IzKBsD4Qj5rzRTnoMCZoZS0Bg=/500x500/top/smart/99designs-contests-attachments/12/12404/attachment_12404862",
+                "name": "Urban Ladder",
+                "price": "95000",
+                "itemId": "18"
+            },
+            {
+                "imageUrl": "https://images-platform.99static.com/79IzKBsD4Qj5rzRTnoMCZoZS0Bg=/500x500/top/smart/99designs-contests-attachments/12/12404/attachment_12404862",
+                "name": "Urban Ladder",
+                "price": "100000",
+                "itemId": "19"
+            },
+            {
+                "imageUrl": "https://images-platform.99static.com/79IzKBsD4Qj5rzRTnoMCZoZS0Bg=/500x500/top/smart/99designs-contests-attachments/12/12404/attachment_12404862",
+                "name": "Urban Ladder",
+                "price": "1,50000",
+                "itemId": "20"
+            }
+        ]
+
+    }
+}

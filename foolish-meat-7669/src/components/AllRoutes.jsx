@@ -5,6 +5,8 @@ import Orders from "../pages/Orders";
 import Cart from "../pages/Cart";
 import Register from "../pages/Register";
 import NotFound from "../pages/NotFound";
+import ProductNotFound from "../pages/ProductNotFound";
+import Product from "../pages/Product";
 
 
 function AllRoutes(){
@@ -17,6 +19,8 @@ function AllRoutes(){
             <Route path="login" element={<Login/>}></Route>
             <Route path="/register" element={<Register />}></Route>
             <Route path="/notfound" element={<NotFound/>}></Route>
+            <Route path="/prodnt" element={<ProductNotFound />}></Route>
+            <Route path="/product" element={<Product/>}></Route>
         </Routes>
     )
 }
