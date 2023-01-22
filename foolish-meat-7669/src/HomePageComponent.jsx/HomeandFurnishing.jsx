@@ -2,6 +2,7 @@ import React from 'react'
 import {Image,Box, Text} from "@chakra-ui/react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import { Link } from 'react-router-dom';
 
 function HomeandFurnishing() {
   
@@ -91,10 +92,10 @@ const sliderImages = [
       <Carousel responsive={responsive}>
          {
            sliderImages.map((el) => {
-            return <Box display="flex" flexDirection="column" alignItems="center" boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px">
-                <Image src={el.url} w={"300px"} h={"400px"} marginTop="30px"/>
+            return <Link><Box display="flex" flexDirection="column" alignItems="center" boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px" transition="tansform .65s">
+                <Image src={el.url} w={"300px"} h={"400px"} marginTop="30px" _hover={{ transform:"scale(1.05)" }}/>
                 <Text fontFamily="sans-serif" fontStyle="normal" fontWeight="700" fontSize="22px" color="gray.900" marginTop="10px">{el.name}</Text>
-                </Box> 
+                </Box></Link>
           })
          }
     </Carousel>;
@@ -107,11 +108,11 @@ const sliderImages = [
       <Carousel responsive={responsive}>
          {
            sliderImagesJewel.map((el) => {
-            return <Box  display="flex" flexDirection="column" alignItems="center" boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px">
+            return <Link><Box  display="flex" flexDirection="column" alignItems="center" boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px" transition="tansform .65s">
                 <Box w={"300px"} h={"450px"} border="0px solid black">
-                <Image src={el.url} w={"300px"} h={"400px"} marginTop="30px"/></Box>
+                <Image src={el.url} w={"300px"} h={"400px"} marginTop="30px" _hover={{ transform:"scale(1.05)" }}/></Box>
                 <Text fontFamily="sans-serif" fontStyle="normal" fontWeight="700" fontSize="22px" color="gray.900" marginTop="10px">{el.name}</Text>
-                </Box> 
+                </Box></Link>
           })
          }
       </Carousel>

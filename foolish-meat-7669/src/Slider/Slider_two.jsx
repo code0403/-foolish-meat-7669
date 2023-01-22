@@ -2,7 +2,8 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { Image } from '@chakra-ui/react';
 import { Text, Box } from '@chakra-ui/react'
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 
@@ -145,10 +146,10 @@ function SliderTwo() {
     <Carousel responsive={responsive}>
         {
             sliderImages.map((el) => {
-                return <Box display="flex" flexDirection="column" alignItems="center" >
-                    <Image src={el.url} boxSize='100px' borderRadius='full' border="1px solid gray" />
+                return <Link><Box display="flex" flexDirection="column" alignItems="center" _hover={{color:"red"}}>
+                    <Image src={el.url} boxSize='100px' borderRadius='full' border="1px solid gray"  />
                     <Text>{el.name}</Text>
-                    </Box> 
+                    </Box></Link> 
               })
         }
    </Carousel>;

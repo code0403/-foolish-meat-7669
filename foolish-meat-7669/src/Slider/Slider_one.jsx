@@ -2,6 +2,7 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { Image,Box, Text } from '@chakra-ui/react';
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 function SliderOne() {
     
@@ -144,10 +145,10 @@ function SliderOne() {
     <Carousel responsive={responsive}>
         {
             sliderImages.map((el) => {
-                return <Box display="flex" flexDirection="column" alignItems="center" >
+                return <Link><Box display="flex" flexDirection="column" alignItems="center" _hover={{color:"red"}}>
                     <Image src={el.url} boxSize='100px' borderRadius='full' />
                     <Text>{el.name}</Text>
-                    </Box> 
+                    </Box></Link> 
               })
         }
    </Carousel>;
