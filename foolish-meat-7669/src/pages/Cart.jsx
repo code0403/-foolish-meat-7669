@@ -1,13 +1,11 @@
+import React from "react";
 
-
-
-
-function Cart(){
+const Cart = () => {
 
     return (
-        <>
-
-        </>
+        <div>
+            <h1>This is cart apge</h1>
+        </div>
     )
 }
 
