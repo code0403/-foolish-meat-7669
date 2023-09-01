@@ -19,26 +19,56 @@ import {
 } from "@chakra-ui/react";
 import { FaRupeeSign } from "react-icons/fa";
 import { Link, useParams } from "react-router-dom";
+import { useToast } from '@chakra-ui/react';
 
 function Product() {
   const [data, setData] = useState([]);
   const [noItems, setNoItems] = useState(null);
 
-  const { category } = useParams();
-  console.log(category)
+  const toast = useToast();
 
+  const { category } = useParams();
+
+
+  
   const getData = async () => {
     try {
       const response = await fetch(`http://localhost:8080/data`);
       const categoryData = await response.json();
       const res = categoryData[category]
-      // console.log(res)
       setData(res)
       setNoItems(res.length)
     } catch (error) {
       console.log(error);
     }
   };
+
+
+  const handleCart = async (id) => {
+      
+    let item = data.find((el) => el.itemId === id);
+     
+    try{
+      let res = await fetch(`http://localhost:8080/cart`,{
+        method:"POST",  
+        headers:{'Content-Type':'application/json'},
+        body:  JSON.stringify(item)
+      })
+      if(res.ok){
+        toast({
+          title: 'Cart',
+          description: "Item Added to Cart.",
+          status: 'success',
+          duration: 1500,
+          isClosable: true,
+        })
+      }
+    } catch(Errro) {
+      console.log("Error")
+    }
+  }
+
+
 
   useEffect(() => {
     getData()
@@ -183,7 +213,7 @@ function Product() {
                     </Text>
                     <Box display={"flex"} justifyContent={"space-around"} alignItems={"center"} padding={"10px"}>
                       <Link to="/payment"><Button>Buy</Button></Link> 
-                      <Link to="/cart"><Button>Add to Cart</Button></Link> 
+                      <Button onClick={() => handleCart(el.itemId)}>Add to Cart</Button>
                     </Box>
                   </GridItem>
               ))}
